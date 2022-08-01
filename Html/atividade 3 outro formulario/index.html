@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina</title>
+    <link href="modelagem.css" rel="stylesheet">
+</head>
+<body>
+<fieldset>
+<legend><p> Sistema de gestão academica</p></legend>
+Manutenção de usuarios do sistema interno
+<br>
+<br>
+<form>
+
+<div class="t">
+<label for="login">login:</label>
+<input type="text" name="login" id="nome">
+<br/>
+<label for="senha">senha:</label>
+<input type="password" name="senha" id="senha">
+<br/>
+<label for="status">status</label>
+<select>
+<optgroup>
+<option>inativo</option>
+<option>ativo</option>
+</select>
+<br/>
+<label for="tipo" >tipo</label>
+<input type="radio" name="tecnico" id="tecnico" >
+<label for="cargo">tecnico</label>
+
+<input type="radio" name="professor" id="professor">
+<label for="professor">professor</label>
+
+
+<input type="radio" name="aluno" id="aluno">
+<label for="aluno">aluno</label>
+
+<br/>
+<label for="data">data criação</label>
+<input type="date" name="data" id="data">
+<br/>
+<br/>
+<label for="perfil" >perfil</label>
+<input type="radio" name="administração" id="administração" >
+<label for="cargo">administração</label>
+<input type="radio" name="convidado"" id="convidado">
+<label for="cargo">convidado</label>
+<br/>
+<br/>
+<label for="text"> observação</label>
+<textarea name="textarea" rows="5" cols="33">
+
+</textarea>
+<br/>
+<br/>
+<div class="f">
+<p4>Módulos</p4>
+
+<label for="compras">compras</label>
+<input type="checkbox" name="compras" id="compras">
+
+<label for="biblioteca">biblioteca</label>
+<input type="checkbox" name="biblioteca" id="biblioteca">
+
+<label for="academico">academico</label>
+<input type="checkbox" name="academico" id="academico">
+
+<label for="documentação">documentação</label>
+<input type="checkbox" name="documentação" id="documentação">
+
+<label for="recursos humanos">recursos humanos</label>
+<input type="checkbox" name="recursos humanos" id="recursos humanos">
+
+</div>
+<P1>
+    <INPUT type="reset"  name="excluir" value="excluir">
+    <INPUT type="submit" name="cadastra" value="cadastrar">
+</P1>
+</div>
+</form>
+</fieldset>
+</body>
+</html>
